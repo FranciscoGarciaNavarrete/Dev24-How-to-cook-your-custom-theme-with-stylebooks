@@ -1,0 +1,71 @@
+.main-carousel {
+
+    .drop-zone {
+        top: var(--drop-zone-top-position, -180px);
+    }
+
+    .carousel {
+        margin-top: var(--main-carousel-margin-top, $default-margin);
+        margin-right: var(--main-carousel-margin-right, $default-margin);
+        margin-left: var(--main-carousel-margin-left, $default-margin);
+        margin-bottom: var(--main-carousel-margin-bottom, $default-margin);
+    }
+
+    .carousel-control-next {
+        background-color: var(--carousel-next-bg-color, transparent);
+    }
+
+    .carousel-control-next:hover {
+        background-color: var(--carousel-next-hover-color, transparent);
+    }
+
+    .carousel-control-prev {
+        background-color: var(--carousel-back-bg-color, transparent);
+    }
+
+    .carousel-control-prev:hover {
+        background-color: var(--carousel-back-hover-color, transparent);
+    }
+
+    .portlet-title-text{
+        color: var(--navigation-menu-title-color, $body-color);
+        background-color: var(--navigation-menu-title-bg-color, $body-bg);
+        font-size: var(--navigation-menu-title-font-size, $size);
+        font-family: var(--font-family-navigation-menu-title, $font-family-base);
+    }
+
+    .portlet-content{
+        background-color: var(--navigation-menu-bg-color, $body-bg);
+        width: var(--navigation-menu-width, 700px);
+        height: var(--navigation-menu-height, 140px);
+        margin-top: var(--navigation-menu-margin-top, $default-margin);
+        margin-right: var(--navigation-menu-margin-right, $default-margin);
+        margin-left: var(--navigation-menu-margin-left, $default-margin);
+        margin-bottom: var(--navigation-menu-margin-bottom, $default-margin);
+    }
+
+    .portlet-body {
+        ul {
+            background-color: transparent;
+        }
+
+        li {
+            background-color: transparent;
+    
+            a{
+                background-color: var(--navigation-menu-link-bg-color, $body-bg);
+            }
+        }
+
+        a{
+            color: var(--navigation-menu-link-color, $body-color);
+            font-size: var(--navigation-menu-link-font-size, $size);
+            font-family: var(--font-family-navigation-menu-link, $font-family-base);
+        }
+
+        a:hover{
+            color: var(--navigation-menu-link-color-hover, $body-color);
+            font-size: var(--navigation-menu-link-hover-font-size, $size);
+        }
+    }
+}

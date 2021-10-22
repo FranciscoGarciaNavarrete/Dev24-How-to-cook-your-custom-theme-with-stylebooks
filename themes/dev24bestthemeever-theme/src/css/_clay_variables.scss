@@ -1,0 +1,37 @@
+// Variables
+
+$primary: #0B5FFF !default;
+$primary-d2: #004da7 !default;
+$default-text: #55595c;
+$size: 1.625rem !default;
+$default-rem: 1rem;
+$default-margin: 10px;
+$default-margin-list: 1px;
+
+// Headings
+
+$h1-font-size: var(--h1-font-size, $size) !default;
+
+// Body
+
+//$font-size-base: var(--body-text-font-size, $default-rem) !default;
+$body-bg: var(--body-background-color, $primary) !default;
+$body-color: var(--text-color, $default-text) !default;
+
+// Auxiliars for fonts
+$font-family-monospace-aux: sfmono-regular, menlo, monaco, consolas,
+	'Liberation Mono', 'Courier New', monospace;
+$font-family-sans-serif-aux: system-ui, -apple-system, blinkmacsystemfont,
+	'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', arial,
+	sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$font-family-serif-aux: georgia, 'Times New Roman', times, serif;
+
+// Font family
+$font-family-monospace: var(--font-family-monospace, $font-family-monospace-aux) !default;
+$font-family-sans-serif: var(--font-family-sans-serif, $font-family-sans-serif-aux) !default;
+$font-family-serif: var(--font-family-serif, $font-family-serif-aux) !default;
+$font-family-base: var(--font-family-base, $font-family-sans-serif-aux) !default;
+
+// Link color
+$link-color: var(--link-color, $primary) !default;
+$link-hover-color: var(--link-hover-color, $primary-d2) !default;

@@ -1,0 +1,971 @@
+{
+    "frontendTokenCategories": [
+       {
+          "frontendTokenSets": [
+             {
+                "frontendTokens": [
+                  {
+                      "defaultValue": "#fff",
+                      "editorType": "ColorPicker",
+                      "label": "body-background-color",
+                      "mappings": [
+                         {
+                            "type": "cssVariable",
+                            "value": "body-background-color"
+                         }
+                      ],
+                      "name": "VariableName",
+                      "type": "String"
+                  },
+                  {
+                     "defaultValue": "#000",
+                     "editorType": "ColorPicker",
+                     "label": "text-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "text-color"
+                        }
+                     ],
+                     "name": "TextColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#fff",
+                     "editorType": "ColorPicker",
+                     "label": "link-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "link-bg-color"
+                        }
+                     ],
+                     "name": "LinkBgColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#0b5fff",
+                     "editorType": "ColorPicker",
+                     "label": "link-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "link-color"
+                        }
+                     ],
+                     "name": "LinkColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#fff",
+                     "editorType": "ColorPicker",
+                     "label": "link-hover-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "link-hover-bg-color"
+                        }
+                     ],
+                     "name": "LinkHoverBgColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#004da7",
+                     "editorType": "ColorPicker",
+                     "label": "link-hover-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "link-hover-color"
+                        }
+                     ],
+                     "name": "LinkHoverColor",
+                     "type": "String"
+                  }
+                ],
+                "label": "body-colors",
+                "name": "bodyColors"
+             },
+             {
+                "frontendTokens":[
+                  {
+                     "defaultValue": "#000",
+                     "editorType": "ColorPicker",
+                     "label": "h1-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "h1-color"
+                        }
+                     ],
+                     "name": "H1Color",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#000",
+                     "editorType": "ColorPicker",
+                     "label": "h2-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "h2-color"
+                        }
+                     ],
+                     "name": "H2Color",
+                     "type": "String"
+                  }
+                ],
+                "label": "headings-colors",
+                "name": "headingsColors"
+             },
+             {
+                "frontendTokens":[
+                  {
+                     "defaultValue": "#fff",
+                     "editorType": "ColorPicker",
+                     "label": "list-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "list-bg-color"
+                        }
+                     ],
+                     "name": "ListBgColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#fff",
+                     "editorType": "ColorPicker",
+                     "label": "list-element-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "list-element-bg-color"
+                        }
+                     ],
+                     "name": "ListElementBgColor",
+                     "type": "String"
+                  }
+                ],
+                "label": "list-colors",
+                "name": "list-colors"
+             }
+          ],
+          "label": "color-system",
+          "name": "color-system"
+       },
+       {
+          "frontendTokenSets": [
+             {
+                "frontendTokens": [
+                  {
+                     "defaultValue": "10px",
+                     "label": "h1-margin-top",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "h1-margin-top"
+                        }
+                     ],
+                     "name": "H1MarginTop",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "h1-margin-right",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "h1-margin-right"
+                        }
+                     ],
+                     "name": "H1MarginRight",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "h1-margin-left",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "h1-margin-left"
+                        }
+                     ],
+                     "name": "H1MarginLeft",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "h1-margin-bottom",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "h1-margin-bottom"
+                        }
+                     ],
+                     "name": "H1MarginBottom",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "h2-margin-top",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "h2-margin-top"
+                        }
+                     ],
+                     "name": "H2MarginTop",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "h2-margin-right",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "h2-margin-right"
+                        }
+                     ],
+                     "name": "H2MarginRight",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "h2-margin-left",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "h2-margin-left"
+                        }
+                     ],
+                     "name": "H2MarginLeft",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "h2-margin-bottom",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "h2-margin-bottom"
+                        }
+                     ],
+                     "name": "H2MarginBottom",
+                     "type": "String"
+                  }
+                ],
+                "label": "headings",
+                "name": "headings"
+             },
+             {
+               "frontendTokens": [
+                  {
+                     "defaultValue": "1px",
+                     "label": "li-margin-top",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "li-margin-top"
+                        }
+                     ],
+                     "name": "LiMarginTop",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "1px",
+                     "label": "li-margin-right",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "li-margin-right"
+                        }
+                     ],
+                     "name": "LiMarginRight",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "1px",
+                     "label": "li-margin-left",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "li-margin-left"
+                        }
+                     ],
+                     "name": "LiMarginLeft",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "1px",
+                     "label": "Li-margin-bottom",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "Li-margin-bottom"
+                        }
+                     ],
+                     "name": "LiMarginBottom",
+                     "type": "String"
+                  }
+               ],
+               "label": "lists",
+               "name": "lists"
+             }
+          ],
+          "label": "margins",
+          "name": "margins"
+       },
+       {
+         "frontendTokenSets":[
+            {
+               "frontendTokens": [
+                   {
+                       "defaultValue": "1.625rem",
+                       "label": "h1-font-size",
+                       "mappings": [
+                          {
+                             "type": "cssVariable",
+                             "value": "h1-font-size"
+                          }
+                       ],
+                       "name": "h1FontSize",
+                       "type": "String"
+                    }
+               ],
+               "label": "headings",
+               "name": "headings"
+           },
+           {
+            "frontendTokens": [
+                {
+                    "defaultValue": "1rem",
+                    "label": "body-text-font-size",
+                    "mappings": [
+                       {
+                          "type": "cssVariable",
+                          "value": "body-text-font-size"
+                       }
+                    ],
+                    "name": "BodyTextFontSize",
+                    "type": "String"
+                 },
+                 {
+                  "defaultValue": "1rem",
+                  "label": "link-font-size",
+                  "mappings": [
+                     {
+                        "type": "cssVariable",
+                        "value": "link-font-size"
+                     }
+                  ],
+                  "name": "LinkFontSize",
+                  "type": "String"
+                 },
+                 {
+                  "defaultValue": "1rem",
+                  "label": "link-hover-font-size",
+                  "mappings": [
+                     {
+                        "type": "cssVariable",
+                        "value": "link-hover-font-size"
+                     }
+                  ],
+                  "name": "LinkHoverFontSize",
+                  "type": "String"
+                 }
+            ],
+            "label": "body-text",
+            "name": "body-text"
+           },
+           {
+            "frontendTokens": [
+               {
+                  "defaultValue": "georgia, 'Times New Roman', times, serif",
+                  "label": "font-family-serif",
+                  "mappings": [
+                     {
+                        "type": "cssVariable",
+                        "value": "font-family-serif"
+                     }
+                  ],
+                  "name": "fontFamilySerif",
+                  "type": "String"
+               },
+               {
+                  "defaultValue": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+                  "label": "font-family-sans-serif",
+                  "mappings": [
+                     {
+                        "type": "cssVariable",
+                        "value": "font-family-sans-serif"
+                     }
+                  ],
+                  "name": "fontFamilySansSerif",
+                  "type": "String"
+               },
+               {
+                  "defaultValue": "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+                  "label": "font-family-monospace",
+                  "mappings": [
+                     {
+                        "type": "cssVariable",
+                        "value": "font-family-monospace"
+                     }
+                  ],
+                  "name": "fontFamilyMonospace",
+                  "type": "String"
+               },
+               {
+                  "defaultValue": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+                  "label": "font-family-base",
+                  "mappings": [
+                     {
+                        "type": "cssVariable",
+                        "value": "font-family-base"
+                     }
+                  ],
+                  "name": "fontFamilyBase",
+                  "type": "String"
+               },
+               {
+                  "defaultValue": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+                  "label": "font-family-link",
+                  "mappings": [
+                     {
+                        "type": "cssVariable",
+                        "value": "font-family-link"
+                     }
+                  ],
+                  "name": "fontFamilyLink",
+                  "type": "String"
+               },
+               {
+                  "defaultValue": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+                  "label": "font-family-link-hover",
+                  "mappings": [
+                     {
+                        "type": "cssVariable",
+                        "value": "font-family-link-hover"
+                     }
+                  ],
+                  "name": "fontFamilyLinkHover",
+                  "type": "String"
+               }
+            ],
+            "label": "font-family",
+            "name": "fontFamily"
+           },
+           {
+              "frontendTokens": [
+               {
+                  "defaultValue": "disc",
+                  "label": "list-style-type",
+                  "mappings": [
+                     {
+                        "type": "cssVariable",
+                        "value": "list-style-type"
+                     }
+                  ],
+                  "name": "listStyleType",
+                  "type": "String"
+               }
+              ],
+              "label": "list-style",
+              "name": "list-style"
+           }
+          ],
+            "label": "typography-system",
+            "name": "typography-system" 
+         },
+       {
+          "frontendTokenSets":[
+            {
+               "frontendTokens": [
+                  {
+                     "defaultValue": "1.625rem",
+                     "label": "navigation-menu-title-font-size",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-title-font-size"
+                        }
+                     ],
+                     "name": "NavigationMenuTitleFontSize",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#000",
+                     "editorType": "ColorPicker",
+                     "label": "navigation-menu-title-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-title-color"
+                        }
+                     ],
+                     "name": "NavigationMenuTitleColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "1rem",
+                     "label": "navigation-menu-link-font-size",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-link-font-size"
+                        }
+                     ],
+                     "name": "NavigationMenuLinkFontSize",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#000",
+                     "editorType": "ColorPicker",
+                     "label": "navigation-menu-link-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-link-color"
+                        }
+                     ],
+                     "name": "NavigationMenuLinkColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "1rem",
+                     "label": "navigation-menu-link-hover-font-size",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-link-hover-font-size"
+                        }
+                     ],
+                     "name": "NavigationMenuLinkHoverFontSize",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#000",
+                     "editorType": "ColorPicker",
+                     "label": "navigation-menu-link-color-hover",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-link-color-hover"
+                        }
+                     ],
+                     "name": "NavigationMenuLinkColorHover",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+                     "label": "font-family-navigation-menu-title",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "font-family-navigation-menu-title"
+                        }
+                     ],
+                     "name": "fontFamilyNavigationMenuTitle",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+                     "label": "font-family-navigation-menu-link",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "font-family-navigation-menu-link"
+                        }
+                     ],
+                     "name": "fontFamilyNavigationMenuLink",
+                     "type": "String"
+                  }
+               ],
+               "label": "font-settings",
+               "name": "font-settings"
+            },
+            {
+               "frontendTokens":[
+                  {
+                     "defaultValue": "rgb(255, 255, 255, 0)",
+                     "editorType": "ColorPicker",
+                     "label": "carousel-back-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "carousel-back-bg-color"
+                        }
+                     ],
+                     "name": "CarouselBackBgColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "rgb(255, 255, 255, 0)",
+                     "editorType": "ColorPicker",
+                     "label": "carousel-next-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "carousel-next-bg-color"
+                        }
+                     ],
+                     "name": "CarouselNextBgColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "rgb(255, 255, 255, 0)",
+                     "editorType": "ColorPicker",
+                     "label": "carousel-back-hover-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "carousel-back-hover-color"
+                        }
+                     ],
+                     "name": "CarouselBackHoverColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "rgb(255, 255, 255, 0)",
+                     "editorType": "ColorPicker",
+                     "label": "carousel-next-hover-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "carousel-next-hover-color"
+                        }
+                     ],
+                     "name": "CarouselNextHoverColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#fff",
+                     "editorType": "ColorPicker",
+                     "label": "navigation-menu-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-bg-color"
+                        }
+                     ],
+                     "name": "NavigationMenuBgColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#fff",
+                     "editorType": "ColorPicker",
+                     "label": "navigation-menu-title-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-title-bg-color"
+                        }
+                     ],
+                     "name": "NavigationMenuTitleBgColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#fff",
+                     "editorType": "ColorPicker",
+                     "label": "navigation-menu-link-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-link-bg-color"
+                        }
+                     ],
+                     "name": "NavigationMenuLinkBgColor",
+                     "type": "String"
+                  }
+               ],
+               "label": "background-settings",
+               "name": "backgronud-settings"
+            },
+            {
+               "frontendTokens": [
+                  {
+                     "defaultValue": "700px",
+                     "label": "navigation-menu-width",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-width"
+                        }
+                     ],
+                     "name": "NavigationMenuWidth",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "140px",
+                     "label": "navigation-menu-height",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-height"
+                        }
+                     ],
+                     "name": "NavigationMenuHeight",
+                     "type": "String"
+                  }
+               ],
+               "label": "dimensions",
+               "names": "dimensions"
+            },
+            {
+               "frontendTokens": [
+                  {
+                     "defaultValue": "10px",
+                     "label": "navigation-menu-margin-top",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-margin-top"
+                        }
+                     ],
+                     "name": "NavigationMenuMarginTop",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "navigation-menu-margin-right",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-margin-right"
+                        }
+                     ],
+                     "name": "NavigationMenuMarginRight",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "navigation-menu-margin-left",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-margin-left"
+                        }
+                     ],
+                     "name": "NavigationMenuMarginLeft",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "navigation-menu-margin-bottom",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "navigation-menu-margin-bottom"
+                        }
+                     ],
+                     "name": "NavigationMenuMarginBottom",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "main-carousel-margin-top",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "main-carousel-margin-top"
+                        }
+                     ],
+                     "name": "MainCarouselMarginTop",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "main-carousel-margin-right",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "main-carousel-margin-right"
+                        }
+                     ],
+                     "name": "MainCarouselMarginRight",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "main-carousel-margin-left",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "main-carousel-margin-left"
+                        }
+                     ],
+                     "name": "MainCarouselMarginLeft",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "10px",
+                     "label": "main-carousel-margin-bottom",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "main-carousel-margin-bottom"
+                        }
+                     ],
+                     "name": "MainCarouselMarginBottom",
+                     "type": "String"
+                  }
+               ],
+               "label": "margins",
+               "names": "margins"
+            },
+            {
+               "frontendTokens": [
+                  {
+                     "defaultValue": "-180px",
+                     "label": "drop-zone-top-position",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "drop-zone-top-position"
+                        }
+                     ],
+                     "name": "DropZoneTopPosition",
+                     "type": "String"
+                  }
+               ],
+               "label": "position",
+               "names": "position"
+            }
+          ],
+          "label": "main-carousel",
+          "name": "main-carousel"
+       },
+       {
+          "frontendTokenSets":[
+            {
+               "frontendTokens":[
+                  {
+                     "defaultValue": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+                     "label": "font-family-header-title",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "font-family-header-title"
+                        }
+                     ],
+                     "name": "fontFamilyHeaderTitle",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "1.625rem",
+                     "label": "header-title-font-size",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "header-title-font-size"
+                        }
+                     ],
+                     "name": "HeaderTitleFontSize",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#000",
+                     "editorType": "ColorPicker",
+                     "label": "header-title-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "header-title-color"
+                        }
+                     ],
+                     "name": "HeaderTitleColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+                     "label": "font-family-header-subtitle",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "font-family-header-subtitle"
+                        }
+                     ],
+                     "name": "fontFamilyHeaderSubtitle",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "1.5rem",
+                     "label": "header-subtitle-font-size",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "header-subtitle-font-size"
+                        }
+                     ],
+                     "name": "HeaderSubtitleFontSize",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#000",
+                     "editorType": "ColorPicker",
+                     "label": "header-subtitle-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "header-subtitle-color"
+                        }
+                     ],
+                     "name": "HeaderSubtitleColor",
+                     "type": "String"
+                  }
+               ],
+               "label": "font-settings",
+               "name": "font-settings"
+            },
+            {
+               "frontendTokens":[
+                  {
+                     "defaultValue": "#fff",
+                     "editorType": "ColorPicker",
+                     "label": "header-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "header-bg-color"
+                        }
+                     ],
+                     "name": "HeaderBgColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#fff",
+                     "editorType": "ColorPicker",
+                     "label": "header-title-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "header-title-bg-color"
+                        }
+                     ],
+                     "name": "HeaderTitleBgColor",
+                     "type": "String"
+                  },
+                  {
+                     "defaultValue": "#fff",
+                     "editorType": "ColorPicker",
+                     "label": "header-subtitle-bg-color",
+                     "mappings": [
+                        {
+                           "type": "cssVariable",
+                           "value": "header-subtitle-bg-color"
+                        }
+                     ],
+                     "name": "HeaderSubtitleBgColor",
+                     "type": "String"
+                  }
+               ],
+               "label": "background-settings",
+               "name": "backgronud-settings"
+            }
+          ],
+          "label": "main-header",
+          "name": "main-header"
+       }
+    ]
+ }

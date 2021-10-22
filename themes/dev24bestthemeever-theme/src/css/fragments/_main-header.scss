@@ -1,0 +1,17 @@
+.main-header {
+    background-color: var(--header-bg-color, $body-bg);
+
+    h1{
+        color: var(--header-title-color, $body-color);
+        background-color: var(--header-title-bg-color, $body-bg);
+        font-size: var(--header-title-font-size, $size);
+        font-family: var(--font-family-header-title, $font-family-base);
+    }
+
+    h2{
+        color: var(--header-subtitle-color, $body-color);
+        background-color: var(--header-subtitle-bg-color, $body-bg);
+        font-size: var(--header-subtitle-font-size, $size);
+        font-family: var(--font-family-header-subtitle, $font-family-base);
+    }
+}

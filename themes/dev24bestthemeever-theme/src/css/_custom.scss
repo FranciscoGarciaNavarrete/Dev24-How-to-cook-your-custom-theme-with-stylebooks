@@ -1,0 +1,62 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+
+@import 'liferay-font-awesome/scss/font-awesome';
+@import 'liferay-font-awesome/scss/glyphicons';
+
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+// body {background-color: var(--variable-name)}
+
+// Custom imports
+@import './fragments/main-header';
+@import './fragments/main-carousel';
+
+// Custom variables
+
+body {
+    font-size: var(--body-text-font-size, $default-rem);
+};
+
+h1 {
+    color: var(--h1-color, $body-color);
+    margin-top: var(--h1-margin-top, $default-margin);
+    margin-right: var(--h1-margin-right, $default-margin);
+    margin-left: var(--h1-margin-left, $default-margin);
+    margin-bottom: var(--h1-margin-bottom, $default-margin);
+};
+
+h2 {
+    color: var(--h2-color, $body-color);
+    margin-top: var(--h2-margin-top, $default-margin);
+    margin-right: var(--h2-margin-right, $default-margin);
+    margin-left: var(--h2-margin-left, $default-margin);
+    margin-bottom: var(--h2-margin-bottom, $default-margin);
+};
+
+a {
+    font-size: var(--link-font-size, $default-rem);
+    font-family: var(--font-family-link, $font-family-base);
+    background-color: var(--link-bg-color, $body-bg);
+}
+
+a:hover {
+    font-size: var(--link-hover-font-size, $default-rem);
+    font-family: var(--font-family-link-hover, $font-family-base);
+    background-color: var(--link-hover-bg-color, $body-bg);
+}
+
+ul {
+    list-style-type: var(--list-style-type, "disc");
+    background-color: var(--list-bg-color, $body-bg);
+
+    li{
+        background-color: var(--list-element-bg-color, $body-bg);
+        margin-top: var(--li-margin-top, $default-margin-list);
+        margin-right: var(--li-margin-right, $default-margin-list);
+        margin-left: var(--li-margin-left, $default-margin-list);
+        margin-bottom: var(--li-margin-bottom, $default-margin-list);
+    }
+}
